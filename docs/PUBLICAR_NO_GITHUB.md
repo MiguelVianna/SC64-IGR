@@ -21,3 +21,5 @@ Não publique ROMs comerciais, dumps, capturas privadas ou o histórico do RE264
 Em 22/10/2026, após Miguel incluir o repositório na conexão GitHub, o envio
 para a branch main foi concluído. Os arquivos do beta estão disponíveis
 publicamente no repositório. O histórico privado do RE264PTBR permanece separado.
+
+Primeira pré-release publicada: https://github.com/MiguelVianna/SC64-IGR/releases/tag/v0.1.0-beta.1

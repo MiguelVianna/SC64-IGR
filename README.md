@@ -32,7 +32,9 @@ as alterações comunitárias para acrescentar e adaptar o IGR.
 
 ## Download — v0.1.0-beta.1
 
-**[Baixar sc64menu.n64 pronto](downloads/sc64menu.n64?raw=true)**
+**[Baixar sc64menu.n64 pronto](https://github.com/MiguelVianna/SC64-IGR/releases/download/v0.1.0-beta.1/sc64menu.n64)**
+
+[Ver a pré-release e todos os arquivos](https://github.com/MiguelVianna/SC64-IGR/releases/tag/v0.1.0-beta.1).
 
 [Gerador HTML offline](downloads/GERAR_MENU.html?raw=true) ·
 [Notas da versão](docs/NOTAS_DA_VERSAO.md) ·
