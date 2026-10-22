@@ -1,4 +1,10 @@
-# SC64-IGR — beta comunitário para SummerCart64
+# SummerCart64 In-Game Reset (IGR) para Nintendo 64
+
+**Volte ao menu pelo controle, sem levantar para apertar RESET.**
+
+SC64-IGR é um beta comunitário de **In-Game Reset para SummerCart64**, baseado
+no N64FlashcartMenu. O recurso também é conhecido como **controller reset**,
+**return to menu** ou retorno ao menu pelo controle no Nintendo 64.
 
 **Para voltar à lista de jogos, segure L + R + START ao mesmo tempo por
 2 a 3 segundos. Não basta apertar e soltar: mantenha os três botões pressionados.**

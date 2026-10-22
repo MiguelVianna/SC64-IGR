@@ -1,7 +1,9 @@
 # SC64-IGR v0.1.0-beta.1
 
-Primeira apresentação pública organizada deste beta comunitário para
-SummerCart64, baseado no N64FlashcartMenu0.3.5.
+**SummerCart64 In-Game Reset (IGR) para Nintendo 64 — volte ao menu pelo controle.**
+
+Primeira apresentação pública organizada deste beta comunitário SC64-IGR,
+baseado no N64FlashcartMenu 0.3.5.
 
 O objetivo é trocar de jogo com L + R + START, evitando levantar para apertar
 RESET a cada teste. Mantenha o combo por 2 a 3 segundos.

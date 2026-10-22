@@ -18,4 +18,4 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           tag=$(python3 -c "import pathlib,re; s=pathlib.Path('docs/NOTAS_DA_VERSAO.md').read_text().splitlines()[0]; m=re.fullmatch(r'# SC64-IGR (v[0-9A-Za-z.-]+)',s); assert m; print(m[1])")
-          gh release edit "$tag" --notes-file docs/NOTAS_DA_VERSAO.md
+          gh release edit "$tag" --title "SummerCart64 In-Game Reset para Nintendo 64 — $tag" --notes-file docs/NOTAS_DA_VERSAO.md
