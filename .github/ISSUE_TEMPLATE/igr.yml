@@ -1,0 +1,63 @@
+name: Incompatibilidade de IGR
+description: Relate um jogo que não abre, não responde ao combo ou trava na volta.
+title: '[IGR] Nome do jogo — resumo da falha'
+body:
+  - type: markdown
+    attributes:
+      value: Obrigado por testar o beta. Não anexe ROMs comerciais. Nome, revisão, hash e passos do teste ajudam a investigar.
+  - type: input
+    id: game
+    attributes:
+      label: Jogo, região e revisão
+      placeholder: 'Ex.: Perfect Dark, USA, 1.1; informe também se é tradução/hack.'
+    validations:
+      required: true
+  - type: input
+    id: beta
+    attributes:
+      label: Versão do SC64-IGR
+      placeholder: v0.1.0-beta.1 ou SHA256 do menu
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware
+      description: Modelo do console, SummerCart64/firmware se souber, Expansion Pak e controle utilizado.
+    validations:
+      required: true
+  - type: dropdown
+    id: failure
+    attributes:
+      label: O que acontece?
+      options:
+        - Tela preta/travamento ao abrir
+        - Jogo abre, combo não faz nada
+        - IGR começa, mas trava antes da lista
+        - Expansion Pak não reconhecido
+        - Outro comportamento
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos e resultado
+      description: Quando acionou L+R+START, por quanto tempo, em qual tela/fase e quantas vezes tentou? O jogo abriu e a lista voltou?
+    validations:
+      required: true
+  - type: textarea
+    id: bypass
+    attributes:
+      label: Resultado segurando CIMA durante o carregamento
+      description: Informe se abre normalmente com o IGR desativado, se continua falhando ou se ainda não testou.
+    validations:
+      required: true
+  - type: input
+    id: hash
+    attributes:
+      label: SHA256 ou MD5 do arquivo do jogo (se souber)
+  - type: textarea
+    id: media
+    attributes:
+      label: Foto, vídeo e outras informações
+      description: Informe cheats ativos, patches/traduções e qualquer mensagem exibida. Não anexe a ROM.

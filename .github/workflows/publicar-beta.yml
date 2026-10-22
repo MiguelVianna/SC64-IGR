@@ -1,0 +1,32 @@
+name: Publicar beta
+on:
+  push:
+    tags:
+      - 'v*-beta.*'
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter arquivos do projeto
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Conferir downloads
+        working-directory: downloads
+        run: sha256sum --check SHA256SUMS.txt
+      - name: Publicar como pre-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" \
+            downloads/sc64menu.n64 \
+            downloads/GERAR_MENU.html \
+            downloads/N64FlashcartMenu-V0.3.5-fontes.zip \
+            downloads/SHA256SUMS.txt \
+            --verify-tag --prerelease \
+            --title "SC64-IGR $RELEASE_TAG — beta comunitário" \
+            --notes-file docs/NOTAS_DA_VERSAO.md

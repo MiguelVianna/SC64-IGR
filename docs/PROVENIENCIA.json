@@ -1,0 +1,48 @@
+{
+  "upstream": "https://github.com/n64brew/N64FlashcartMenu",
+  "tag": "V0.3.5",
+  "commit": "90b669dd55d890e5131d31496639613b9fbbf96a",
+  "submodules": [
+    " 55aac1355773169d87e45424b772faf0dfb9432a libdragon (55aac13)",
+    " b55a0d9a30b91ad8901f89ecf05f76a33186c185 src/libs/dr_libs (b55a0d9)",
+    " 350784a9467a79d0fa65802132668e5afbcf3777 src/libs/dr_libs/tests/external/miniaudio (350784a)",
+    " adc94393dbeddf9e027d1b2dfff7c1bab975224e src/libs/libspng (adc9439)",
+    " ea99364f61c14656440e8d77e9c233ccf3124633 src/libs/minimp3 (heads/master)",
+    " 77d0dce8627735138c51770d1799a1ef48f2117d src/libs/miniz (77d0dce)"
+  ],
+  "source_archive_sha256": "5435232aac9616b6ce0ddad749caec06bdbc9cfbdfe2d0d9231f094e07a99562",
+  "source_archive_bytes": 21087683,
+  "igr_modules": [
+    "arena_guards",
+    "build_bassmasters_candidate",
+    "build_dk_tag_candidate",
+    "build_fighter_destiny2_candidate",
+    "build_igr",
+    "build_indiana_candidate",
+    "build_perfect_dark_candidate",
+    "build_three_games_candidate",
+    "build_v22",
+    "compatibility",
+    "late_loader",
+    "reserved_runtime",
+    "reset_handoff",
+    "reset_quiesce",
+    "reset_recovery",
+    "return_diagnostic_1080",
+    "return_quiet_1080",
+    "return_recovery_1080",
+    "vaccines",
+    "vaccines_ido"
+  ],
+  "menu_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+  "public_release": "v0.1.0-beta.1",
+  "game_roms_included": false,
+  "excluded_non_build_test_vectors_examples": [
+    "src/libs/minimp3/vectors/",
+    "src/libs/dr_libs/tests/",
+    "libdragon/examples/",
+    "libdragon/tests/",
+    "libdragon/tools/cpaktool/tests/"
+  ],
+  "included_open_source_boot_images": "libdragon/boot/bin/ipl3_compat.z64, ipl3_dev.z64, ipl3_prod.z64: boot images do próprio libdragon, não jogos comerciais."
+}

@@ -1,0 +1,84 @@
+{
+  "release": "v0.1.0-beta.1",
+  "menu_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+  "same_as_console_confirmed_fighter_destiny2_menu": true,
+  "public_native_sources_reconstruct_exact_cave": true,
+  "menu_modified_for_publication": false,
+  "upstream_compilation_performed": false,
+  "source_zip_verified": true,
+  "only_n64_binaries_in_source_zip": "boot images open source do próprio libdragon; nenhum jogo ou save comercial",
+  "browser": {
+    "pass": true,
+    "served_localhost_for_test": true,
+    "file_navigation_blocked_by_managed_browser_policy": true,
+    "external_network_requests": 0,
+    "wrong_inputs_rejected": 2,
+    "records": [
+      {
+        "input": "original035",
+        "input_sha256": "c4684d1cea72c708ae1cac7199138b863c942356dc72b10166e3286a452bb3d0",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      },
+      {
+        "input": "v25",
+        "input_sha256": "c229645cdb9e2b707e1891fc28206e6f5442caf3d134f0ae94face49aaa756ed",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      },
+      {
+        "input": "current",
+        "input_sha256": "f1de0822aa16a5a9dbc1c1b579366b1bd659a67f71f9a7d27afd46bba48ff990",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      },
+      {
+        "input": "diagnostic",
+        "input_sha256": "cb312b2220d82ec139ff6076a9cc10df0b8ab6c0a9ed1cdde4f5976721ed2625",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      },
+      {
+        "input": "tag",
+        "input_sha256": "f34423d5a1ccd62513d196ddc2b6d932387a06806197e9a86f3d33126bfaedd9",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      },
+      {
+        "input": "d4",
+        "input_sha256": "e9acee88ce230fb67e4ba26ecbcc7c26dac5496c03763ab54c455ff34ac2a87f",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      },
+      {
+        "input": "quiet",
+        "input_sha256": "5cdfe10e3079e47103396b0a25be4f923a6c4b1d7e7cadd6ddc57fc380541c0d",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      },
+      {
+        "input": "indiana",
+        "input_sha256": "23c0244584f7116b266336c79c3f85aa509dede988247750b79d97a1056b1783",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      },
+      {
+        "input": "perfect",
+        "input_sha256": "cbe20299dfc5c8d1b6f4b0df649b9a0aad1efd2e370e75af90d7e0532adb9207",
+        "output_sha256": "719be9a6f7d646d08fcf8848b5a6d8d346d90d5b1dcbb4502812645d56093e11",
+        "download_name": "sc64menu.n64",
+        "input_unchanged": true
+      }
+    ],
+    "html_sha256": "ba38d0a43f68dcad47af6b7628766ac0e239fe3e7ababceca14d19f0c875561a"
+  },
+  "public_instructions": "Segurar L + R + START simultaneamente por 2 a 3 segundos."
+}
