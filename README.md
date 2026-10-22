@@ -86,9 +86,21 @@ revisões que ficam deliberadamente sem IGR até receberem uma ligação segura.
 
 ## Compatibilidade e colaboração
 
-Há relatos positivos com Zelda, Banjo, Mario e vários títulos da Rare. Entre
-os ajustes específicos confirmados em console estão Majora's Mask, Donkey Kong64,
-Perfect Dark americano1.1,1080°, Indiana Jones e Fighter Destiny2.
+Entre os jogos com relatos positivos de funcionamento do IGR estão:
+
+- Banjo-Kazooie e Banjo-Tooie.
+- The Legend of Zelda: Ocarina of Time e Majora's Mask.
+- Resident Evil 2.
+- Super Mario 64.
+- GoldenEye 007.
+- Tony Hawk's Pro Skater 1, 2 e 3.
+- Donkey Kong 64, incluindo a edição Tag Anywhere testada.
+- Perfect Dark americano 1.1.
+- 1080° Snowboarding.
+- Indiana Jones and the Infernal Machine.
+- Fighter Destiny 2.
+- Bassmasters 2000, etc.
+
 **Isso não certifica todas as regiões, revisões, hacks, modos ou fases.**
 
 Se um jogo falhar, abra uma **Issue → Incompatibilidade de IGR** neste repositório.

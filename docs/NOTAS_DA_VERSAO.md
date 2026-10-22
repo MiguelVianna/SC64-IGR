@@ -20,6 +20,17 @@ Se um jogo der tela preta, reinicie o console e segure CIMA no D-pad desde a
 última confirmação de início, durante a barra de carregamento, até abrir.
 Esse lançamento seguirá sem IGR. Informe se isso resolve a abertura.
 
+## Jogos com relatos positivos
+
+Banjo-Kazooie, Banjo-Tooie, The Legend of Zelda: Ocarina of Time, Majora's Mask,
+Resident Evil 2, Super Mario 64, GoldenEye 007, Tony Hawk's Pro Skater 1, 2 e 3,
+Donkey Kong 64, Perfect Dark US 1.1, 1080° Snowboarding, Indiana Jones,
+Fighter Destiny 2, Bassmasters 2000, etc.
+
+Relatos do idealizador e dos testes em console; não certificam todas as regiões,
+revisões, hacks, modos ou fases. Esta edição amplia a lista pública e não altera
+o arquivo do menu.
+
 Requer SummerCart64 e Expansion Pak para o IGR. Não é firmware e não anuncia
 suporte a EverDrive/64drive. Nenhuma ROM comercial é incluída.
 

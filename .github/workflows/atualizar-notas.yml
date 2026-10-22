@@ -1,0 +1,21 @@
+name: Atualizar notas publicadas
+on:
+  push:
+    branches: [main]
+    paths: [docs/NOTAS_DA_VERSAO.md]
+permissions:
+  contents: write
+jobs:
+  notas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Atualizar descrição da versão indicada nas notas
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tag=$(python3 -c "import pathlib,re; s=pathlib.Path('docs/NOTAS_DA_VERSAO.md').read_text().splitlines()[0]; m=re.fullmatch(r'# SC64-IGR (v[0-9A-Za-z.-]+)',s); assert m; print(m[1])")
+          gh release edit "$tag" --notes-file docs/NOTAS_DA_VERSAO.md

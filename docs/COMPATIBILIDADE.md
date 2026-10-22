@@ -15,8 +15,16 @@ os jogos foram testados novamente após cada atualização.
 |1080° Snowboarding, revisão testada | Retorno à lista suave confirmado |
 | Indiana Jones and the Infernal Machine US original | Resultado positivo após adaptação da memória virtual |
 | Fighter Destiny2 US original | IGR positivo após ligação específica de interrupções |
-| Zelda Ocarina of Time, GoldenEye007, Resident Evil2 e Tony Hawk3 | Relatos positivos em etapas anteriores |
-| Mario, Banjo e outros títulos Rare | Relatos gerais do idealizador; título/revisão e cobertura precisam ser detalhados |
+| Banjo-Kazooie | IGR positivo relatado por Miguel; região/revisão não especificadas neste relato |
+| Banjo-Tooie | IGR positivo relatado por Miguel; região/revisão não especificadas neste relato |
+| The Legend of Zelda: Ocarina of Time | Relato positivo do IGR |
+| Resident Evil 2 | Relato positivo do IGR |
+| Super Mario 64 | Relato positivo de Mario, identificado como Super Mario 64 no contexto do N64; revisão não especificada |
+| GoldenEye 007 | Relato positivo do IGR |
+| Tony Hawk's Pro Skater | Relato positivo do IGR |
+| Tony Hawk's Pro Skater 2 | Relato positivo do IGR |
+| Tony Hawk's Pro Skater 3 | Relato positivo do IGR |
+| Outros jogos (etc.) | Lista não exaustiva; ajude informando título e revisão exatos |
 
 Podem ocorrer: abertura com tela preta, IGR sem resposta, travamento durante o
 retorno, diferenças entre regiões/revisões, hacks incompatíveis e efeitos em
